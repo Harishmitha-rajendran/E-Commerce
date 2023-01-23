@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilvah</title>
+
+    <!---    icon   --->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <!---    css   --->
+    <link rel="stylesheet" href="style.css">
+
+    <!--   bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!---   jquery   --->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    
+    <!--  slick theme min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- slick min  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+  </head>
+<body>
+    
+    <!--  HEADER  -->
+    <header class="header">
+      <div class="alert text-center m-0 p-0" style="display:none;">
+        <p>Product of the month : Anti-dandruff Hair Oil. Use code Hurry20 to avail 20% discount.</p>
+      </div>
+        <nav class="navbar navbar-expand-md bg-light data-header fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              <a class="navbar-brand" href="#" ><img src="images/vilvahlogo.png" style="height:30px ;"></a> 
+             
+              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link links " href="#home">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link links" href="#bestsellers">Bestsellers</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link links" href="#collections">Combos</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link links" href="#concern">Shop</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link links" href="#contact">Contact</a>
+                  </li>
+                  <li>
+                    <div class="search">
+                      <input type="text" placeholder="search" class="search-box">
+                      <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+                
+                </div>
+                <div class="icons" style="cursor:pointer;">
+                  <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                  <span>0</span>
+              </div>
+            </div>
+          </nav>
+    </header>
+ 
+
+    <!--  MAIN  -->
+
+
+    <main>
+        <section id="home">
+            <!-- <div class="container text-center">Use Hurry22 for 20% discount</div> -->
+            <div class="container-fluid home-carousel">
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="3000">
+                              <img src="images/lap1.webp"  class="d-block w-100 img-fluid">                      
+                            <!-- <div class="carousel-content">
+                                <h1>Reveal The Beauty of Skin</h1>
+                                <p>Made using clean, non-toxic ingreients, our products are designed for everyone </p>
+                                <span>Starting at $7.99</span><br>
+                                <a href="#"><button class="btn">Shop Now</button></a>
+                            </div> -->
+                          </div>
+                          <div class="carousel-item" data-bs-interval="3000">
+                            <img src="images/lap4.webp" class="d-block w-100">
+                            <!-- <div class="carousel-content">
+                                <h1>Reveal The Beauty of Skin</h1>
+                                <p>Made using clean, non-toxic ingreients, our products are designed for everyone </p>
+                                <span>Starting at $7.99</span><br>
+                                <a href="#"><button class="btn">Shop Now</button></a>
+                            </div> -->
+                          </div>
+                          <div class="carousel-item" data-bs-interval="3000">
+                            <img src="images/lap3.webp" class="d-block w-100" >
+                            <!-- <div class="carousel-content">
+                                <h1>Reveal The Beauty of Skin</h1>
+                                <p>Made using clean, non-toxic ingreients, our products are designed for everyone </p>
+                                <span>Starting at $7.99</span><br>
+                                <a href="#"><button class="btn">Shop Now</button></a>
+                            </div> -->
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+
+       <!--    BEST SELLERS   -->
+       <section id="bestsellers">
+        <div class="container-fluid">
+          <h3>Best Sellers</h3>
+          <div class="row ">
+
+            <div class="card border-0 bestsellers-card">
+              <p>-20%</p>
+              <img src="images/shampoo.webp" class="card-img-top mt-5 mx-3 mb-3">
+              <div class="card-body text-center">
+               <div class="discount d-flex justify-content-center">
+                   <del>$39.00</del>
+                   <p>$29.00</p>
+               </div>
+               <p>Anti Dandruff Herbal Shampoo</p>
+               <div class="ratings d-flex justify-content-center">
+                <div class="d-flex">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <span>5670 reviews</span>
+                </div>
+               </div>
+              </div>
+              <div class="hover-icons">
+               <button class="hover-icon"><ion-icon  name="bag-handle-outline" aria-hidden="true"></ion-icon></button>
+               <button class="hover-icon"><ion-icon  name="star-outline" aria-hidden="true"></ion-icon></button>
+               <button class="hover-icon"><ion-icon  name="repeat-outline" aria-hidden="true"></ion-icon></button>
+               </div>
+            </div>
+          
+
+          
+            <div class="card border-0 bestsellers-card "  >
+              <img src="images/eyecream.webp" class="card-img-top mt-5 mx-3 mb-3">
+              <div class="card-body text-center">
+                <p>$25.00</p>
+                <p>Under Eye Cream</p>
+                <div class="ratings d-flex  justify-content-center">
+                 <div class="d-flex">
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <span>2999 reviews</span>
+                 </div>
+                </div>
+               </div>
+               <div class="hover-icons">
+                <button class="hover-icon"><ion-icon  name="bag-handle-outline" aria-hidden="true"></ion-icon></button>
+                <button class="hover-icon"><ion-icon  name="star-outline" aria-hidden="true"></ion-icon></button>
+                <button class="hover-icon"><ion-icon  name="repeat-outline" aria-hidden="true"></ion-icon></button>
+               </div>
+            </div>
+          
+
+          
+            <div class="card border-0 bestsellers-card" >
+              <img src="images/hairoil.webp" class="card-img-top mt-5 mx-3 mb-3">
+              <div class="card-body text-center">
+                <p>$22.00</p>
+                <p>Hair Growth Oil</p>
+                <div class="ratings d-flex  justify-content-center">
+                 <div class="d-flex ">
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <span>3888 reviews</span>
+                 </div>
+                </div>
+               </div>
+               <div class="hover-icons">
+                <button class="hover-icon"><ion-icon  name="bag-handle-outline" aria-hidden="true"></ion-icon></button>
+                <button class="hover-icon"><ion-icon  name="star-outline" aria-hidden="true"></ion-icon></button>
+                <button class="hover-icon"><ion-icon  name="repeat-outline" aria-hidden="true"></ion-icon></button>
+               </div>
+            </div>
+         
+
+           
+            <div class="card border-0 bestsellers-card" >
+              <p>-20%</p>
+              <img src="images/aloe.webp" class="card-img-top mt-5 mx-3 mb-3">
+              <div class="card-body text-center">
+                <div class="discount d-flex justify-content-center">
+                    <del>$49.00</del>
+                    <p>$39.00</p>
+                </div>
+                <p>Aloevera Gel</p>
+                <div class="ratings d-flex  justify-content-center">
+                 <div class="d-flex">
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <span>4999 reviews</span>
+                 </div>
+                </div>
+               </div>
+               <div class="hover-icons">
+                <button class="hover-icon"><ion-icon  name="bag-handle-outline" aria-hidden="true"></ion-icon></button>
+                <button class="hover-icon"><ion-icon  name="star-outline" aria-hidden="true"></ion-icon></button>
+                <button class="hover-icon"><ion-icon  name="repeat-outline" aria-hidden="true"></ion-icon></button>
+               </div>
+            </div>
+         
+              
+            
+            <div class="card border-0 bestsellers-card" >
+              <img src="images/footcream.webp" class="card-img-top mt-5 mx-3 mb-3">
+              <div class="card-body text-center">
+                <p>$29.00</p>
+                <p>Foot Cream</p>
+                <div class="ratings d-flex  justify-content-center">
+                 <div class="d-flex">
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <span>2877 reviews</span>
+                 </div>
+                </div>
+               </div>
+               <div class="hover-icons">
+                <button class="hover-icon"><ion-icon  name="bag-handle-outline" aria-hidden="true"></ion-icon></button>
+                <button class="hover-icon"><ion-icon  name="star-outline" aria-hidden="true"></ion-icon></button>
+                <button class="hover-icon"><ion-icon  name="repeat-outline" aria-hidden="true"></ion-icon></button>
+               </div>
+            </div>
+          
+
+            
+            <div class="card border-0 bestsellers-card"  >
+              <img src="images/goatmilk.webp" class="card-img-top mt-5 mx-3 mb-3">
+              <div class="card-body text-center">
+                <p>$29.00</p>
+                <p>Goat Milk Shampoo</p>
+                <div class="ratings d-flex  justify-content-center">
+                 <div class="d-flex">
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <ion-icon name="star" aria-hidden="true"></ion-icon>
+                   <span>5170 reviews</span>
+                 </div>
+                </div>
+               </div>
+               <div class="hover-icons">
+                <button class="hover-icon" ><ion-icon  name="bag-handle-outline" aria-hidden="true"></ion-icon></button>
+                <button class="hover-icon"><ion-icon  name="star-outline" aria-hidden="true"></ion-icon></button>
+                <button class="hover-icon"><ion-icon  name="repeat-outline" aria-hidden="true"></ion-icon></button>
+               </div>
+            </div>
+          
+
+          </div>
+        </div>
+      </section>
+
+
+        <!--    COLLECTIONS   -->
+
+        <section id="collections">
+          <div class="container-fluid">
+            <h3>Combos</h3>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mt-3">
+                <div class="card  collections-card text-bg-dark">
+                  <img src="images/haircombo.webp" class="card-img collections-img">
+                  <div class="card-img-overlay ">
+                    <h2 class="mt-4">Hair Care Combo</h2>
+                     <h5>Starting at $17.99</h5>
+                     <a href="#" class="d-flex">Shop Now <ion-icon name="arrow-forward"></ion-icon></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mt-3">
+                <div class="card collections-card text-bg-dark">
+                  <img src="images/sensitiveskincombo.webp" class="card-img collections-img">
+                    <div class="card-img-overlay">
+                     <h2 class="mt-4">Anti-Acne Combo</h2>
+                     <h5 >Get the Glow</h5>
+                     <a href="#" class="d-flex">Shop Now <ion-icon name="arrow-forward"></ion-icon></a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mt-3">
+                <div class="card collections-card text-bg-dark">
+                  <img src="images/skinbright.webp" class="card-img collections-img">
+                  <div class="card-img-overlay">
+                    <h2 class="mt-4">Skin Brightening Combo</h2>
+                     <h5>starting at $5.5</h5>
+                     <a href="#" class="d-flex">Shop Now <ion-icon name="arrow-forward"></ion-icon></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <!--    SHOP BY CONCERN   -->
+        <section id="concern">
+
+             <div class="container-fluid">
+              <h2 class="text-center" style="color:#dc8d6c;">Shop By Concern</h2>
+              <p class="text-center" style="font-weight:500;">We'd love to help you find the best solution</p>
+              <ul class="concern-buttons">
+                <li><button id="panel-btn-1" class="panelbtn hair-btn btn-active">Hair</button></li>
+                <li><button id="panel-btn-2" class="panelbtn face-btn">Face</button></li>
+                <li><button id="panel-btn-3" class="panelbtn body-btn">Body</button></li>
+              </ul>
+
+              <div class="panel ">
+
+              <div class="hair-panel " >
+                     <div class="row scroll">
+                          <div class="panel-div col mx-1 text-center">
+                            <img src="images/hair1.png" class="clr-active panel-img">
+                            <p class="text-active panel-p">Dandruff</p>
+                          </div>
+                          <div class="panel-div col mx-1 text-center">
+                            <img src="images/hair2.png"  class="panel-img">
+                            <p class="panel-p">Dry/Damaged Hair</p>
+                          </div>
+                          <div class="panel-div col mx-1 text-center">
+                            <img src="images/hair3.png" class="panel-img">
+                            <p class="panel-p">Hairfall</p>
+                          </div>
+                          <div class="panel-div col mx-1 text-center">
+                            <img src="images/hair4.avif" class="panel-img">
+                            <p class="panel-p">Frizz</p>
+                          </div>
+                          <div class="panel-div col mx-1 text-center">
+                            <img src="images/hair5.png" class="panel-img">
+                            <p class="panel-p">Limp Hair</p>
+                          </div>
+
+                     </div>
+              </div>
+
+              <div class="face-panel" style="display:none;">
+                 <div class="row scroll">
+                  <div class="panel-div col mx-1 text-center">
+                    <img src="images/face1.webp" class="clr-active panel-img">
+                    <p class="text-active panel-p">Acne</p>
+                  </div>
+                  <div class="panel-div col mx-1 text-center">
+                    <img src="images/face3.webp" class="panel-img">
+                    <p class="panel-p">Oily Skin</p>
+                  </div>
+                  <div class="panel-div col mx-1 text-center">
+                    <img src="images/face4.webp" class="panel-img">
+                    <p class="panel-p">Dry Skin</p>
+                  </div>
+                  <div class="col mx-1 text-center">
+                    <img src="images/face5.webp" class="panel-img">
+                    <p class="panel-p">Aged Skin</p>
+                  </div>
+                  <div class="panel-div col mx-1 text-center">
+                    <img src="images/face7.webp" class="panel-img">
+                    <p class="panel-p">Scars</p>
+                  </div>
+             </div>
+            </div>
+
+            <div class="body-panel" style="display:none;">
+              <div class="row scroll">
+                <div class="panel-div col mx-1 text-center">
+                  <img src="images/body1.webp" class="clr-active panel-img">
+                  <p class="text-active panel-p">Acne</p>
+                </div>
+                <div class="panel-div col mx-1 text-center">
+                  <img src="images/body2.webp" class="panel-img">
+                  <p class="panel-p">Sensitive Skin</p>
+                </div>
+                <div class="panel-div col mx-1 text-center">
+                  <img src="images/body3.webp" class="panel-img">
+                  <p class="panel-p">Dry Skin</p>
+                </div>
+                <div class="panel-div col mx-1 text-center">
+                  <img src="images/body5.webp" class="panel-img">
+                  <p class="panel-p">Oily Skin</p>
+                </div>
+                <div class="panel-div col mx-1 text-center">
+                  <img src="images/body6.webp" class="panel-img">
+                  <p class="panel-p">De Tan</p>
+                </div>
+            </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!--   Parallax     -->
+
+        <section id="parallax">
+              <div class="container-fluid">
+                  <div class="parallax-div">
+                      <div class="parallax-content">
+                         <h1>Welcome to our humble world of wellness!</h1>
+                         <p>This is where natural goodness meets modern science. As a brand that’s proudly Indian, we believe that everyone deserves a good skin story and that's why we strive to create products that are result-driven but genuinely gentle on your skin. The Vilvah story can be best described as a perfect harmony between Mother Nature's bountiful ingredients and future-forward clean technology.</p>
+                      </div>
+                  </div>
+              </div>      
+        </section>
+
+        <section id="slick">
+               <div class="container-fluid">
+                <div class="row slickrow">
+                  <div class="col-lg-5">
+                    <img src="images/clinicallyproven.avif" style="height:140px; width:170px;">
+                    <p>Clinically Proven</p>
+                  </div>
+                  <div class="col-lg-5 ">
+                    <img src="images/noanimaltesting.avif" style="height:140px; width:170px;">
+                    <p>No Animal Testing</p>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/noartificialcolors.png" style="height:140px; width:170px;">
+                    <p>No Artificial Testing</p>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/dermatologicallytested.avif" style="height:140px; width:170px;">
+                    <p>Dermatologically Tested</p>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/fullingredientdisclosure.png" style="height:140px; width:170px;">
+                    <p>Full Ingredient Disclosure</p>
+                  </div>
+                  <div class="col-lg-5 ">
+                    <img src="images/noartificialfrag.png" style="height:140px; width:170px;">
+                    <p>No Artificial Fragrance</p>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/highperformanceformulation.png" style="height:140px; width:170px;">
+                    <p>High Performance </p>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/nosecondarypacking.avif" style="height:140px; width:170px;">
+                    <p>No Secondary Packaging</p>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/safeingrediemts.png" style="height:140px; width:170px;">
+                    <p>Safe Ingredients</p>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/sustainable.avif" style="height:140px; width:170px;">
+                    <p>Sustainable</p>
+                  </div>
+                </div>
+               </div>
+        </section>
+
+        <!--   INSTAGRAM   -->
+        <section id="insta">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <h4>Our Community</h4>
+                  <p class="text-center">Join us to thrive as community spreading Love and Wellbeing!</p>
+              </div>
+              <div class="col-md-6">
+                  <a href="https://www.instagram.com/vilvah_/" target="_blank">
+                    <h4 class="text-center">FOLLOW US <br>  ON INSTAGRAM</h4>
+                    <p>#handmadecraftedgoodness</p>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--  MEDIA   -->
+        <section id="media">
+          <div class="container-fluid">
+            <h4 class="text-center" style="font-size:30px;">Media Talking</h4>
+            <div class="row text-center scroll">
+              <div class="col-lg-2 col-md-3">
+                <a href="https://www.thehindu.com/life-and-style/fashion/kruthika-kumarans-vilvah-is-a-brand-of-organic-home-made-skin-and-hair-care-products/article19643811.ece" class="logo-bar__link" aria-describedby="a11y-external-message" tabindex="0">
+                 <img src="//cdn.shopify.com/s/files/1/0019/3183/7503/files/Vilvah_-_Press_Features-09_250x_0cc9f379-28e5-445b-8f3b-31e55bdd4249_160x160@2x.jpg?v=1671692443" class="logo-bar__image lazyloaded">
+                </a>
+              </div>
+              <div class="col-lg-2 col-md-3">
+                <a href="https://www.indulgexpress.com/fashion/new-launches/2018/feb/09/vilvahs-all-natural-preservative-free-skin-care-and-cosmetic-range-finds-a-permanent-city-store-6052.html" class="logo-bar__link" aria-describedby="a11y-external-message" tabindex="0">
+                  <img src="//cdn.shopify.com/s/files/1/0019/3183/7503/files/Vilvah_-_Press_Features-07_250x_593dcdb7-1cb8-4fb0-b991-08d8dfb25b57_160x160@2x.jpg?v=1671692441" class="logo-bar__image lazyloaded">
+                </a>
+              </div>
+              <div class="col-lg-2 col-md-3">
+                <a href="https://yourstory.com/2019/11/startup-bharat-vilvah-coimbatore-organic-skincare-brand" class="logo-bar__link" aria-describedby="a11y-external-message" tabindex="0">
+                  <img src="//cdn.shopify.com/s/files/1/0019/3183/7503/files/Vilvah_-_Press_Features-01_250x_cc7a60ca-8468-4770-b181-18e6cddaaa56_160x160@2x.jpg?v=1615383230" class="logo-bar__image lazyloaded">
+               </a>
+              </div>
+              <div class="col-lg-2 col-md-3">
+                <a href="https://www.indianretailer.com/interview/retail-people/startup/How-this-Start-up-is-Winning-with-Sustainable-Beauty-Solutions.i1652" class="logo-bar__link" aria-describedby="a11y-external-message" tabindex="0">
+                  <img src="//cdn.shopify.com/s/files/1/0019/3183/7503/files/Vilvah_-_Press_Features-04_250x_f1e6761d-089a-4e63-be11-93700d84ba08_160x160@2x.jpg?v=1671692440" class="logo-bar__image lazyloaded">
+                </a>
+              </div>
+              <div class="col-lg-2 col-md-3">
+              <a href="https://www.zeebiz.com/companies/news-vilvah-store-is-trying-to-promote-the-culture-of-no-secondary-packaging-policy-145252" class="logo-bar__link" aria-describedby="a11y-external-message" tabindex="0">
+                <img src="//cdn.shopify.com/s/files/1/0019/3183/7503/files/fe_160x160@2x.jpg?v=1670933728" class="logo-bar__image lazyloaded">
+              </a>
+            </div>
+              <div class="col-lg-2 col-md-3">
+                <a href="http://businessworld.in/article/We-Work-With-Small-Scale-Farmers-Who-Follow-Organic-Sustainable-Practices-Kruthika-Kumaran-Founder-Vilvah/16-11-2019-179091" class="logo-bar__link" aria-describedby="a11y-external-message" tabindex="0">
+                  <img src="//cdn.shopify.com/s/files/1/0019/3183/7503/files/Vilvah_-_Press_Features-11_250x_3504422b-78c5-4c95-8441-957c14e6c001_160x160@2x.jpg?v=1615383250" class="logo-bar__image lazyloaded">
+                </a>
+            </div>
+          </div>
+        </section>
+
+        <!--   REVIEW   -->
+        <section id="review">
+          <img src="images/left.png">
+          <img src="images/right.png">
+          <div class="container-fluid text-center">
+            <img src="images/heart.png">
+            <h4>Real People Real Stories</h4>
+            <img src="" id="review-img">
+            <h5 id="author" class="mt-3"></h5>
+            <p id="info">  </p>
+            <div class="review-buttons">
+              <button class="prev-btn">
+                <img src="images/leftarrow.png">
+              </button>
+              <button class="next-btn">
+                <img src="images/rightarrow.png">
+              </button>
+            </div>
+          </div>
+        </section>
+
+
+        <!--  MESSAGE   -->
+        <section id="message">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                   <p>Our people inspire us to continue to love the work we do. We strive to make you feel special, and try our best to create the safest natural products to add to your skin care regime. Just as how each human being is unique,we believe the same applies to their skin.Here are some of our customers from around the world sharing their honest Vilvah experience, and their journey to discovering incredible skin benefits through our natural products.</p>
+              </div>
+              <div class="col-md-6">
+                <div class="msg-div">
+                  <h1 style="color: white; margin-bottom: 20px;">Stay in touch</h1>
+                  <input class="msg change" type="text" placeholder="What can we call you?">
+                  <input class="mail change" type="email" placeholder="Email address">
+                  <button class="btn btn-lg px-5" type="button">Join</button>
+                  <div class="social">
+                   <img src="images/cfb.png">
+                   <img src="images/cinsta.png">
+                   <img src="images/ctwitter.png">
+                   <img src="images/cutube.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!--   MAP   -->
+
+        <section id="map">
+
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 " >
+                    <div class="map">
+                      <h2>Visit Us</h2>
+                      
+                      <p class="cbe"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Vilvah Store,167,ALG House, Racecourse, Near RK Photo centre, Coimbatore-641018.Phone: 8110013553=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></p>
+                      
+                      <p class="c1" style="display:none;"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Vilvah Store, TNagar, Chennai<br/>Varnamala wedding experience centre,49/13, Habibullah road, TNagar, Chennai 600017<br/>Phone: 8110024133=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></p>
+                      
+                      <p class="c2" style="display:none;"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Vilvah Store - PhoenixPhoenix Market City, Vilvah Store, F-45 (First Floor, Velachery, Chennai, Tamil Nadu 600042Phone: 6381207449=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="loc">
+                      <ul class="concern-buttons">
+                        <li><button id="map-btn-1" class="mapbtn cbe-btn map-active">Coimbatore</button></li>
+                        <li><button id="map-btn-2" class="mapbtn c1-btn">Chennai 1</button></li>
+                        <li><button id="map-btn-3" class="mapbtn c2-btn">Chennai 2</button></li>
+                      </ul>
+                      
+                      <div class="cbee" >
+                        <div class="cbe-address">
+                          <span>
+                            Vilvah Store, <br>
+                            167,ALG House, Racecourse,Near RK Photo centre,<br>
+                            Coimbatore-641018<br>
+                            Phone: 8110013553
+                          </span>
+                        </div>
+                        <div class="cbe-time">
+                          <h4 class="mb-3">We are open</h4>
+                          <p>
+                            <span>Mon - Sat</span>
+                            <span>11:00 AM to 08:00 PM</span>
+                          </p>
+                          <p>
+                            <span>Sun</span>
+                            <span>11:00 AM to 06:30 PM</span>
+                          </p>
+                        </div>
+                      </div>
+                      
+                      <div class="c11"  style="display:none;">
+                        <div class="c1-address">
+                          <span>
+                            Vilvah Store,<br>
+                            Varnamala wedding experience centre,49/13,Habibullah road,<br>
+                            TNagar, Chennai 600017<br>
+                            Phone: 8110024133
+                          </span>
+                        </div>
+                        <div class="c1-time">
+                          <h4 class="mb-3">We are open</h4>
+                          <p>
+                            <span>Mon - Sat</span>
+                            <span>11:00 AM to 08:00 PM</span>
+                          </p>
+                          <p>
+                            <span>Sun</span>
+                            <span>11:00 AM to 06:30 PM</span>
+                          </p>
+                        </div>  
+                      </div>
+                     
+                      <div class="c22" style="display: none;">
+                        <div class="c2-address">
+                          <span>
+                            Vilvah Store - Phoenix<br>
+                            Phoenix Market City,Vilvah Store,F-45(First Floor) Velachery,<br>
+                            Chennai, Tamil Nadu 600042<br>
+                            Phone: 6381207449
+                          </span>
+                        </div>
+                        <div class="c2-time">
+                          <h4 class="mb-3">We are open</h4>
+                          <p>
+                            <span>Mon - Sun</span>
+                            <span>10AM to 10PM</span>
+                          </p>
+                        </div>  
+                      </div>
+                      
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        </section>
+
+        
+    </main>
+
+
+    <!--   FOOTER  -->
+    <footer>
+      <section id="contact">
+          <div class="sec1">
+              <ul>
+                <li>Vilvah's STORY</li>
+                <li>Vilvah's GOODNESS</li> 
+                <li>RESOURCES</li>
+                <li>ORDER & SHIPPING</li>
+                <li>INTERNATIONAL SHIPPING POLICY</li>
+              </ul>
+          </div>
+          <div class="sec2">
+              <ul>
+                <li>EARN WITH US</li>
+                <li>POLICY</li> 
+                <li>TERMS</li>
+                <li>FAQ</li>
+                <li>CONTACT</li>
+                <li>TRACK ORDER</li>
+              </ul>
+          </div>
+          <div class="sec3">
+              <ul>
+                <li>For order related queries<br>
+                    <a>sales@vilvahstore.com</a></li>
+                <li>For Vilvah Agro<br>
+                    <a>agro@vilvahstore.com</a></li>
+                <li>For collaboration queries<br>
+                    <a>collaboration@vilvahstore.com</a></li>
+                <li>For career opportunities<br>
+                    <a>careers@vilvahstore.com</a></li>
+                </ul>
+          </div>
+          <div class="sec4">
+            <img src="images/lastlogo.avif" >
+            <p>© vilvahstore</p>
+            <div class="lasticon">
+              <img src="images/playstore.webp">
+              <img src="images/mac.png">
+            </div>
+          </div>
+      </section>
+
+      <section id="contact-mble">
+        
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              COMPANY
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li>Vilvah's STORY</li>
+                  <li>Vilvah's GOODNESS</li> 
+                  <li>RESOURCES</li>
+                  <li>ORDER & SHIPPING</li>
+                  <li>INTERNATIONAL SHIPPING POLICY</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              CUSTOMER INFO
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li>EARN WITH US</li>
+                  <li>POLICY</li> 
+                  <li>TERMS</li>
+                  <li>FAQ</li>
+                  <li>CONTACT</li>
+                  <li>TRACK ORDER</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+               QUERIES
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li>For order related queries<br>
+                      <a>sales@vilvahstore.com</a></li>
+                  <li>For Vilvah Agro<br>
+                      <a>agro@vilvahstore.com</a></li>
+                  <li>For collaboration queries<br>
+                      <a>collaboration@vilvahstore.com</a></li>
+                  <li>For career opportunities<br>
+                      <a>careers@vilvahstore.com</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+        <div class="last-icons">
+          <img src="images/playstore.webp">
+          <img src="images/mac.png">
+          <p>© vilvahstore</p>
+          <img src="images/lastlogo.avif" >
+        </div>
+      </section>
+    </footer>
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+    </script>
+
+    <!--  js  -->
+    <script src="script.js"></script>
+
+    <!--  ionicon  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    
+   <!---   jquery   --->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+ 
+   <!-- slic carousel min -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+
+   <script type="text/javascript">
+    $('.slickrow').slick({
+   dots: false,
+   infinite: true,
+   arrows:false,
+   autoplay:true,
+   autoplaySpeed: 1000,
+   slidesToShow: 5,
+   slidesToScroll: 1,
+   responsive: [
+     {
+       breakpoint: 991,
+       settings: {
+         slidesToShow: 4,
+         slidesToScroll: 1,
+       }
+     },
+     {
+       breakpoint:850,
+       settings: {
+         slidesToShow: 3,
+         slidesToScroll: 1
+       }
+       },
+     {
+       breakpoint: 700,
+       settings: {
+         slidesToShow: 2,
+         slidesToScroll: 1
+       }
+       },
+     {
+       breakpoint: 450,
+       settings: {
+         slidesToShow: 2,
+         slidesToScroll: 1
+       }
+     }
+   ]
+ });
+   </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
