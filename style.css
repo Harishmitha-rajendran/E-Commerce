@@ -1224,7 +1224,7 @@ margin-right: 15px;
     margin-bottom:30px;
   }
   .msg-div{
-    margin-top:95% !important;
+    margin-top:100% !important;
     padding-top:10px;
     border-top: 1px solid white;
 
@@ -1367,7 +1367,7 @@ margin-right: 15px;
   width:85%;
 }
 #review > div > h4{
-  font-size: 35px;
+  font-size: 20px;
 }
 #info{
   font-size: 15px;
