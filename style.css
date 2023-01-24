@@ -1222,7 +1222,7 @@ margin-right: 15px;
     margin-bottom:30px;
   }
   .msg-div{
-    margin-top:90% !important;
+    margin-top:85% !important;
     padding-top:10px;
     border-top: 1px solid white;
 
@@ -1347,9 +1347,16 @@ margin-right: 15px;
 
 #media{
   min-height:35vh;
+  padding-top:40px;
 }
 #media > div > h4{
   margin-bottom:20px;
+}
+#insta{
+  padding-top:0 ;
+}
+#insta > div > div > div:nth-child(2) > a{
+  padding:20px 60px;
 }
 
 
